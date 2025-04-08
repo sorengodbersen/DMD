@@ -2,8 +2,7 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import dcc, html, dash_table, Input, Output
 import pandas as pd
-import base64
-import io
+
 
 # Load the Excel file
 excel_file_path = 'DMD.xlsx'
